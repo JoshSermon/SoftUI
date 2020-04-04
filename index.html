@@ -55,5 +55,16 @@
             </div>
         </div>
     </section>
+
+<!--JS to open the menu on click-->
+<script>
+    let openMenu = document.querySelector('.menu-toggler');
+    let navList = document.querySelector('.nav-list');
+
+    openMenu.addEventListener('click', function () {
+        navList.classList.toggle('active');
+    });
+</script>
+
 </body>
 </html>
